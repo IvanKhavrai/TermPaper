@@ -24,6 +24,10 @@ public class StudentService {
         return studentDTO;
     }
 
+    public List<StudentDTO> getStudents() {
+        return students;
+    }
+
     public StudentDTO updateStudent(String studentId, String newStudentName, String newSurname, int newYearOfStudy, String newPassportId) {
         for (StudentDTO student : students) {
             if (student.getStudentId().equals(studentId)) {
