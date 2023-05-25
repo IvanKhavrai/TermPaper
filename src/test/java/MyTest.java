@@ -4,8 +4,8 @@ import org.testng.Assert;
 public class MyTest {
     @Test
     public void testSomething() {
-        int expected = 12;
-        int actual = 6 + 6;
+        int expected = 14;
+        int actual = 7 + 7;
 
         Assert.assertEquals(expected, actual);
     }
