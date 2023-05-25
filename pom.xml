@@ -12,12 +12,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Updated version -->
+                <version>3.0.0-M5</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
                         <artifactId>junit-platform-surefire-provider</artifactId>
-                        <version>1.8.0</version> <!-- Updated version -->
+                        <version>1.8.0</version>
                     </dependency>
                     <dependency>
                         <groupId>org.junit.jupiter</groupId>
@@ -26,8 +26,8 @@
                     </dependency>
                     <dependency>
                         <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok</artifactId> <!-- Updated artifactId -->
-                        <version>1.18.20</version> <!-- Updated version -->
+                        <artifactId>lombok</artifactId>
+                        <version>1.18.20</version>
                         <scope>compile</scope>
                     </dependency>
                 </dependencies>
@@ -58,11 +58,11 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.11.2</version> <!-- Updated version -->
+            <version>3.11.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId> <!-- Added TestNG dependency -->
+            <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
             <scope>test</scope>
