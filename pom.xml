@@ -26,12 +26,6 @@
                         <version>1.18.20</version>
                         <scope>compile</scope>
                     </dependency>
-                    <dependency>
-                        <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok-maven-plugin</artifactId>
-                        <version>1.18.20.0</version>
-                        <scope>provided</scope>
-                    </dependency>
                 </dependencies>
             </plugin>
         </plugins>
@@ -75,12 +69,6 @@
             <artifactId>mockito-junit-jupiter</artifactId>
             <version>3.11.2</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok-maven-plugin</artifactId>
-            <version>1.18.20.0</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
