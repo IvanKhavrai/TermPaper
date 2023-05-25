@@ -28,14 +28,9 @@
                         <groupId>org.projectlombok</groupId>
                         <artifactId>lombok-maven-plugin</artifactId>
                         <version>1.18.20.0</version>
-                        <scope>provided</scope>
+                        <scope>compile</scope> <!-- Updated scope to "compile" -->
                     </dependency>
                 </dependencies>
-                <!--configuration>
-                    <excludes>
-                        <exclude>com.driver.test.VehicleTest</exclude>
-                    </excludes>
-                </configuration-->
             </plugin>
         </plugins>
     </build>
