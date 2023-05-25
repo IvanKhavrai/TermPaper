@@ -12,23 +12,23 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.21.0</version>
+                <version>3.0.0-M5</version> <!-- Updated version -->
                 <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
                         <artifactId>junit-platform-surefire-provider</artifactId>
-                        <version>1.2.0-M1</version>
+                        <version>1.8.0</version> <!-- Updated version -->
                     </dependency>
                     <dependency>
                         <groupId>org.junit.jupiter</groupId>
                         <artifactId>junit-jupiter-engine</artifactId>
-                        <version>5.2.0-M1</version>
+                        <version>5.8.0</version>
                     </dependency>
                     <dependency>
                         <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok-maven-plugin</artifactId>
-                        <version>1.18.20.0</version>
-                        <scope>compile</scope> <!-- Updated scope to "compile" -->
+                        <artifactId>lombok</artifactId> <!-- Updated artifactId -->
+                        <version>1.18.20</version> <!-- Updated version -->
+                        <scope>compile</scope>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -58,7 +58,13 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>5.3.1</version>
+            <version>3.11.2</version> <!-- Updated version -->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId> <!-- Added TestNG dependency -->
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
